@@ -83,4 +83,8 @@
             My.Computer.Audio.Play("C:\Sb\12.wav")
         End If
     End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Text = "Sound board by DaShoe"
+    End Sub
 End Class
